@@ -37,3 +37,11 @@ Signed Attributes decrypted with the signer's certificate public key. In general
 
 ![image](https://github.com/user-attachments/assets/a78caabd-07ec-4eb4-8385-02b9a933161c)
 
+## Build
+Use mvn package to build the module into jar file
+
+> mvn clean package
+
+## Usage
+
+> docker compose up 
