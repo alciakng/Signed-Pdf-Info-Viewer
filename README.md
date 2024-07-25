@@ -50,8 +50,6 @@ Command to run the container :
 docker run -p 3000:3000 signed-pdf-info-viewer
 ```
 
-Please **note** when you build the container image and if mongodb is running locally on your system, you will need to provide your system's IP address (or cloud hosted database's IP) in the application.properties file to be able to connect to the database from within the container.
-
 ##### Docker Compose #####
 Another alternative to run the application is to use the docker-compose.yml file and utility. To build the application using docker-compose simply execute the following command :
 ```
