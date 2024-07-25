@@ -3,8 +3,6 @@
 
 This project extracts the digital signature of the signed PDF and displays each piece of information.
 
-this project origins from : https://github.com/spapas/pdf-sign-check
-
 ## Digital Signature Process
 ![image](https://github.com/user-attachments/assets/5792fb6d-55c2-4d0b-9d7a-a33cc02f6551)
 
