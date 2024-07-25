@@ -32,8 +32,7 @@ Signed Attributes encrypted with the signer's certificate private key.
 Signed Attributes decrypted with the signer's certificate public key. In general, this value matches the Signed Attributes extracted above.
 
 ## This is Page Sample
-
-![image](https://github.com/user-attachments/assets/a78caabd-07ec-4eb4-8385-02b9a933161c)
+![image](https://github.com/user-attachments/assets/aa0972ed-88a2-4ea4-9dea-64f76f7aa226)
 
 
 ## Running the server in Docker Container ##
