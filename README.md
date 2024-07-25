@@ -37,11 +37,30 @@ Signed Attributes decrypted with the signer's certificate public key. In general
 
 ![image](https://github.com/user-attachments/assets/a78caabd-07ec-4eb4-8385-02b9a933161c)
 
-## Build
-Use mvn package to build the module into jar file
 
-> mvn clean package
+## Running the server in Docker Container ##
+##### Docker #####
+Command to build the container :
 
-## Usage
+```
+docker build . --tag signed-pdf-info-viewer
+```
 
-> docker compose up 
+Command to run the container :
+
+```
+docker run -p 3000:3000 signed-pdf-info-viewer
+```
+
+Please **note** when you build the container image and if mongodb is running locally on your system, you will need to provide your system's IP address (or cloud hosted database's IP) in the application.properties file to be able to connect to the database from within the container.
+
+##### Docker Compose #####
+Another alternative to run the application is to use the docker-compose.yml file and utility. To build the application using docker-compose simply execute the following command :
+```
+docker-compose build
+```
+
+And to run the application, please execute the following command :
+```
+docker-compose up
+```
